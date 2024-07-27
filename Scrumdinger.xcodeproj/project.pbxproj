@@ -17,6 +17,7 @@
 		CE7232E72C5293FB008682F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7232E62C5293FB008682F5 /* Preview Assets.xcassets */; };
 		CEEFCADE2C5540A500AAD687 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFCADD2C5540A500AAD687 /* ScrumsView.swift */; };
 		CEEFCAE02C55462E00AAD687 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFCADF2C55462E00AAD687 /* DetailView.swift */; };
+		CEEFCAE22C556CBF00AAD687 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFCAE12C556CBF00AAD687 /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CE7232E82C5293FB008682F5 /* Scrumdinger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scrumdinger.entitlements; sourceTree = "<group>"; };
 		CEEFCADD2C5540A500AAD687 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		CEEFCADF2C55462E00AAD687 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CEEFCAE12C556CBF00AAD687 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CE0BE5382C52A409001D49B7 /* CardView.swift */,
 				CEEFCADD2C5540A500AAD687 /* ScrumsView.swift */,
 				CEEFCADF2C55462E00AAD687 /* DetailView.swift */,
+				CEEFCAE12C556CBF00AAD687 /* DetailEditView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				CE0BE5372C52A219001D49B7 /* DailyScrum.swift in Sources */,
 				CEEFCAE02C55462E00AAD687 /* DetailView.swift in Sources */,
+				CEEFCAE22C556CBF00AAD687 /* DetailEditView.swift in Sources */,
 				CE0BE53B2C52A840001D49B7 /* TrailingIconLabelStyle.swift in Sources */,
 				CE7232E22C5293FA008682F5 /* MeetingView.swift in Sources */,
 				CEEFCADE2C5540A500AAD687 /* ScrumsView.swift in Sources */,
