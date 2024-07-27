@@ -15,6 +15,7 @@
 		CE7232E22C5293FA008682F5 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7232E12C5293FA008682F5 /* MeetingView.swift */; };
 		CE7232E42C5293FB008682F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7232E32C5293FB008682F5 /* Assets.xcassets */; };
 		CE7232E72C5293FB008682F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7232E62C5293FB008682F5 /* Preview Assets.xcassets */; };
+		CEEFCADE2C5540A500AAD687 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFCADD2C5540A500AAD687 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CE7232E32C5293FB008682F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7232E62C5293FB008682F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE7232E82C5293FB008682F5 /* Scrumdinger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scrumdinger.entitlements; sourceTree = "<group>"; };
+		CEEFCADD2C5540A500AAD687 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				CE7232E82C5293FB008682F5 /* Scrumdinger.entitlements */,
 				CE7232E52C5293FB008682F5 /* Preview Content */,
 				CE0BE5382C52A409001D49B7 /* CardView.swift */,
+				CEEFCADD2C5540A500AAD687 /* ScrumsView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				CE0BE5372C52A219001D49B7 /* DailyScrum.swift in Sources */,
 				CE0BE53B2C52A840001D49B7 /* TrailingIconLabelStyle.swift in Sources */,
 				CE7232E22C5293FA008682F5 /* MeetingView.swift in Sources */,
+				CEEFCADE2C5540A500AAD687 /* ScrumsView.swift in Sources */,
 				CE0BE5352C52A044001D49B7 /* theme.swift in Sources */,
 				CE7232E02C5293FA008682F5 /* ScrumdingerApp.swift in Sources */,
 				CE0BE5392C52A409001D49B7 /* CardView.swift in Sources */,
