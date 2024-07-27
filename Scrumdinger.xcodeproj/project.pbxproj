@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0BE5352C52A044001D49B7 /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BE5342C52A044001D49B7 /* theme.swift */; };
+		CE0BE5372C52A219001D49B7 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BE5362C52A219001D49B7 /* DailyScrum.swift */; };
+		CE0BE5392C52A409001D49B7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BE5382C52A409001D49B7 /* CardView.swift */; };
+		CE0BE53B2C52A840001D49B7 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BE53A2C52A840001D49B7 /* TrailingIconLabelStyle.swift */; };
 		CE7232E02C5293FA008682F5 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7232DF2C5293FA008682F5 /* ScrumdingerApp.swift */; };
-		CE7232E22C5293FA008682F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7232E12C5293FA008682F5 /* ContentView.swift */; };
+		CE7232E22C5293FA008682F5 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7232E12C5293FA008682F5 /* MeetingView.swift */; };
 		CE7232E42C5293FB008682F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7232E32C5293FB008682F5 /* Assets.xcassets */; };
 		CE7232E72C5293FB008682F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7232E62C5293FB008682F5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0BE5342C52A044001D49B7 /* theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		CE0BE5362C52A219001D49B7 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		CE0BE5382C52A409001D49B7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CE0BE53A2C52A840001D49B7 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		CE7232DC2C5293FA008682F5 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7232DF2C5293FA008682F5 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		CE7232E12C5293FA008682F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE7232E12C5293FA008682F5 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		CE7232E32C5293FB008682F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7232E62C5293FB008682F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE7232E82C5293FB008682F5 /* Scrumdinger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scrumdinger.entitlements; sourceTree = "<group>"; };
@@ -33,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0BE5332C52A032001D49B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE0BE5342C52A044001D49B7 /* theme.swift */,
+				CE0BE5362C52A219001D49B7 /* DailyScrum.swift */,
+				CE0BE53A2C52A840001D49B7 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CE7232D32C5293FA008682F5 = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +70,13 @@
 		CE7232DE2C5293FA008682F5 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				CE0BE5332C52A032001D49B7 /* Models */,
 				CE7232DF2C5293FA008682F5 /* ScrumdingerApp.swift */,
-				CE7232E12C5293FA008682F5 /* ContentView.swift */,
+				CE7232E12C5293FA008682F5 /* MeetingView.swift */,
 				CE7232E32C5293FB008682F5 /* Assets.xcassets */,
 				CE7232E82C5293FB008682F5 /* Scrumdinger.entitlements */,
 				CE7232E52C5293FB008682F5 /* Preview Content */,
+				CE0BE5382C52A409001D49B7 /* CardView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -139,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7232E22C5293FA008682F5 /* ContentView.swift in Sources */,
+				CE0BE5372C52A219001D49B7 /* DailyScrum.swift in Sources */,
+				CE0BE53B2C52A840001D49B7 /* TrailingIconLabelStyle.swift in Sources */,
+				CE7232E22C5293FA008682F5 /* MeetingView.swift in Sources */,
+				CE0BE5352C52A044001D49B7 /* theme.swift in Sources */,
 				CE7232E02C5293FA008682F5 /* ScrumdingerApp.swift in Sources */,
+				CE0BE5392C52A409001D49B7 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +295,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Scrumdinger/Scrumdinger.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = 42UF25M2U8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -285,8 +311,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = zwill.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -296,10 +325,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Scrumdinger/Scrumdinger.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = 42UF25M2U8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -310,8 +341,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = zwill.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
