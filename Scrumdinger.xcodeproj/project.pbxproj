@@ -26,6 +26,7 @@
 		CEEFCAEF2C56B10300AAD687 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFCAEE2C56B10300AAD687 /* MeetingFooterView.swift */; };
 		CEEFCAF12C56B56000AAD687 /* AVPlayerDing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFCAF02C56B56000AAD687 /* AVPlayerDing.swift */; };
 		CEEFCAF42C56B84E00AAD687 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEEFCAF32C56B84E00AAD687 /* ding.wav */; };
+		CEEFCAF62C56BAAB00AAD687 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFCAF52C56BAAB00AAD687 /* NewScrumSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		CEEFCAEE2C56B10300AAD687 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		CEEFCAF02C56B56000AAD687 /* AVPlayerDing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerDing.swift; sourceTree = "<group>"; };
 		CEEFCAF32C56B84E00AAD687 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		CEEFCAF52C56BAAB00AAD687 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				CEEFCAE82C567C8200AAD687 /* MeetingHeaderView.swift */,
 				CEEFCAEA2C567E6700AAD687 /* ScrumProgressViewStyle.swift */,
 				CEEFCAEE2C56B10300AAD687 /* MeetingFooterView.swift */,
+				CEEFCAF52C56BAAB00AAD687 /* NewScrumSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				CE0BE5372C52A219001D49B7 /* DailyScrum.swift in Sources */,
 				CEEFCAE02C55462E00AAD687 /* DetailView.swift in Sources */,
 				CEEFCAE92C567C8200AAD687 /* MeetingHeaderView.swift in Sources */,
+				CEEFCAF62C56BAAB00AAD687 /* NewScrumSheet.swift in Sources */,
 				CEEFCAE22C556CBF00AAD687 /* DetailEditView.swift in Sources */,
 				CE0BE53B2C52A840001D49B7 /* TrailingIconLabelStyle.swift in Sources */,
 				CE7232E22C5293FA008682F5 /* MeetingView.swift in Sources */,
