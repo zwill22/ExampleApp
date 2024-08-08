@@ -20,6 +20,8 @@
 		CE7232E22C5293FA008682F5 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7232E12C5293FA008682F5 /* MeetingView.swift */; };
 		CE7232E42C5293FB008682F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7232E32C5293FB008682F5 /* Assets.xcassets */; };
 		CE7232E72C5293FB008682F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7232E62C5293FB008682F5 /* Preview Assets.xcassets */; };
+		CEC9B6252C64C2070068A482 /* SpeechRecogniser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC9B6242C64C2070068A482 /* SpeechRecogniser.swift */; };
+		CEC9B6272C64C92F0068A482 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC9B6262C64C92F0068A482 /* HistoryView.swift */; };
 		CEEFCADE2C5540A500AAD687 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFCADD2C5540A500AAD687 /* ScrumsView.swift */; };
 		CEEFCAE02C55462E00AAD687 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFCADF2C55462E00AAD687 /* DetailView.swift */; };
 		CEEFCAE22C556CBF00AAD687 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFCAE12C556CBF00AAD687 /* DetailEditView.swift */; };
@@ -52,6 +54,8 @@
 		CE7232E32C5293FB008682F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7232E62C5293FB008682F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE7232E82C5293FB008682F5 /* Scrumdinger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scrumdinger.entitlements; sourceTree = "<group>"; };
+		CEC9B6242C64C2070068A482 /* SpeechRecogniser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecogniser.swift; sourceTree = "<group>"; };
+		CEC9B6262C64C92F0068A482 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		CEEFCADD2C5540A500AAD687 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		CEEFCADF2C55462E00AAD687 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		CEEFCAE12C556CBF00AAD687 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
@@ -90,6 +94,7 @@
 				CEEFCAFB2C56C15700AAD687 /* History.swift */,
 				CE0DAFFA2C58D93800ACE15D /* ScrumStore.swift */,
 				CE0DAFFC2C590EDA00ACE15D /* ErrorWrapper.swift */,
+				CEC9B6242C64C2070068A482 /* SpeechRecogniser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				CE0DAFFE2C590F5300ACE15D /* ErrorView.swift */,
 				CE0DB0002C592BB000ACE15D /* MeetingTimerView.swift */,
 				CE0DB0022C592E0500ACE15D /* SpeakerArc.swift */,
+				CEC9B6262C64C92F0068A482 /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -250,8 +256,10 @@
 				CE0BE53B2C52A840001D49B7 /* TrailingIconLabelStyle.swift in Sources */,
 				CE0DB0012C592BB000ACE15D /* MeetingTimerView.swift in Sources */,
 				CE7232E22C5293FA008682F5 /* MeetingView.swift in Sources */,
+				CEC9B6272C64C92F0068A482 /* HistoryView.swift in Sources */,
 				CE0DAFFD2C590EDA00ACE15D /* ErrorWrapper.swift in Sources */,
 				CEEFCADE2C5540A500AAD687 /* ScrumsView.swift in Sources */,
+				CEC9B6252C64C2070068A482 /* SpeechRecogniser.swift in Sources */,
 				CE0BE5352C52A044001D49B7 /* theme.swift in Sources */,
 				CE7232E02C5293FA008682F5 /* ScrumdingerApp.swift in Sources */,
 				CEEFCAE52C5672E300AAD687 /* ThemeView.swift in Sources */,
@@ -396,6 +404,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -426,6 +436,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
